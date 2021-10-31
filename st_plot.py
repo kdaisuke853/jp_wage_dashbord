@@ -7,9 +7,9 @@ import plotly.express as px
 
 st.title('賃金データダッシュボード')
 
-df_jp_ind = pd.read_csv('./code_file/csv_data/雇用_医療福祉_一人当たり賃金_全国_全産業.csv',encoding='shift_jis')
-df_jp_category = pd.read_csv('./code_file/csv_data/雇用_医療福祉_一人当たり賃金_全国_大分類.csv',encoding='shift_jis')
-df_pref_ind = pd.read_csv('./code_file/csv_data/雇用_医療福祉_一人当たり賃金_都道府県_全産業.csv',encoding='shift_jis')
+df_jp_ind = pd.read_csv('./csv_data/雇用_医療福祉_一人当たり賃金_全国_全産業.csv',encoding='shift_jis')
+df_jp_category = pd.read_csv('./csv_data/雇用_医療福祉_一人当たり賃金_全国_大分類.csv',encoding='shift_jis')
+df_pref_ind = pd.read_csv('./csv_data/雇用_医療福祉_一人当たり賃金_都道府県_全産業.csv',encoding='shift_jis')
 
 st.header('2019年一人当たり賃金')
 
